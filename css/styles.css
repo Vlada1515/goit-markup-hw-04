@@ -45,12 +45,12 @@ img {
     margin: -1px;
     border: 0;
     padding: 0;
-  
+
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+}
 
 
 /* ================== BODY ==================*/
@@ -351,9 +351,10 @@ margin-bottom: 8px;
 .socials {
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
     gap: 24px;
 }
+
 .social-icon {
     width: 40px;
     height: 40px;
