@@ -183,6 +183,7 @@ position: absolute;
     background: var(--NAVY-BLUE, #2E2F42);
     padding: 188px 0;
     max-width: 1440px;
+    margin: 0 auto;
     background-image: linear-gradient(
         to bottom,
         rgba(46, 47, 66, 0.7),
@@ -288,10 +289,8 @@ margin-bottom: 8px;
     background: var(--CLOUD, #F4F4FD);
 }
 
-/* .icon-section-two {
-    width: 64px;
-height: 64px;
-} */
+
+
 /* ===================SECTION 3 =========================*/
 
 .third-section{
@@ -321,6 +320,7 @@ background: var(--WHITE, #FFF);
 width: calc((100% - 72px) / 4);
 border-radius: 0px 0px 4px 4px;
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+display: block;
 }
 
 .third-section-item-text {
@@ -348,6 +348,38 @@ margin-bottom: 8px;
 }
 
 
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center
+    gap: 24px;
+}
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+.social-link-section {
+    display: flex;
+width: 100%;
+height: 100%;
+background-color: #4d5ae5;
+border-radius: 50%;
+justify-content: center;
+align-items: center;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link-section:hover,
+.social-link-section:focus {
+    background-color: #404bbf;
+}
+
+.icon-section-three {
+    fill:#f4f4fd;
+}
 /* ===================SECTION 4 =================== */
 
 .fourth-section {
