@@ -85,6 +85,8 @@ body{
 .top-nav {
     display: flex;
     align-items: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .logo {
@@ -112,6 +114,8 @@ text-transform: uppercase;
     display: flex;
     align-items: flex-start;
     gap: 40px;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link:hover,
@@ -143,6 +147,7 @@ bottom: -1px;
 margin-top: 20px;
 border-radius: 2px;
 background: var(--OCEAN, #404BBF);
+position: absolute;
 }
 
 .contacts {
@@ -155,6 +160,8 @@ background: var(--OCEAN, #404BBF);
     display: flex;
     align-items: flex-start;
     gap: 40px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .address-link {
@@ -269,7 +276,7 @@ margin-bottom: 8px;
 }
 
 
-.second-section-link {
+.container-icon {
     display: flex; 
     align-items: center; 
     justify-content: center;
@@ -281,10 +288,10 @@ margin-bottom: 8px;
     background: var(--CLOUD, #F4F4FD);
 }
 
-.icon-section-two {
+/* .icon-section-two {
     width: 64px;
 height: 64px;
-}
+} */
 /* ===================SECTION 3 =========================*/
 
 .third-section{
